@@ -1,4 +1,5 @@
 
 .post-container {
-  max-width: 755px;
+  width:50%;
+  margin: 5px auto;
 }
