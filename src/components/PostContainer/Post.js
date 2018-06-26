@@ -2,6 +2,7 @@ import React from 'react';
 import CommentSection from '../CommentSection/CommentSection';
 import LikeSection from './LikeSection';
 import PostHeader from './PostHeader';
+import './Posts.css';
 
 
 class Post extends React.Component {

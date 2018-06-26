@@ -32,7 +32,6 @@ class App extends Component {
     return (
       <div className="App">
       <SearchBar
-        searchTerm={this.state.searchTerm}
         searchPosts={this.searchPostHandler}
       />
       <PostContainer
