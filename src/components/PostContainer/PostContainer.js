@@ -8,6 +8,7 @@ const PostContainer = props => {
       <img src={props.post.thumbnailUrl} alt="thumbnail" />
         {props.post.username}
       <img src={props.post.imageUrl} alt="main"/>
+        {props.post.likes}
         {props.post.timestamp}
         {props.post.comments.map(comment => (
       <CommentSection key={Math.random()} comment={comment} />
