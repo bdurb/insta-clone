@@ -3,7 +3,7 @@ import React from "react";
 const SearchBar = () => {
   return (
     <div>
-      <h1>some stuff</h1>
+      <h1>Hello There</h1>
       <form>
         <input />
       </form>
