@@ -8,7 +8,7 @@ const SearchBar = props => {
     <div className="search-bar">
         <img className="images" src={insta} alt="insta"/>
       <div>
-      <input type="text" placeholder="search" onKeyDown={props.searchPosts} />
+      <input type="text" placeholder="search" onChange={props.searchPosts} />
       </div>
       <div className="social-icons">
         <div className="social">
