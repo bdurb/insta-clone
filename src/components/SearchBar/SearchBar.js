@@ -1,16 +1,26 @@
 import React from "react";
 import './searchbar.css';
 import insta from '../../assets/insta.png';
-import instacam from '../../assets/instacam.png';
+// import instacam from '../../assets/instacam.png';
 
 const SearchBar = () => {
   return (
     <div className="search-bar">
-      <img src={instacam} alt="insta"/>
-      <img src={insta} alt="insta"/>
-      <input
-        placeholder="search"
-      />
+        <img className="images" src={insta} alt="insta"/>
+      <div>
+      <input placeholder="search" />
+      </div>
+      <div className="social-icons">
+        <div className="social">
+          <i className="fa fa-compass" />
+        </div>
+        <div className="social">
+          <i className="fa fa-heart" />
+        </div>
+        <div className="social">
+          <i className="fa fa-user-circle" />
+        </div>
+      </div>
     </div>
   );
 };

@@ -3,5 +3,22 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
+  line-height: 70px;
   border-bottom: 1px solid grey;
+}
+
+.images {
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
