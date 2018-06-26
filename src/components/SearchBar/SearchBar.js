@@ -3,7 +3,7 @@ import './searchbar.css';
 import insta from '../../assets/insta.png';
 // import instacam from '../../assets/instacam.png';
 
-const SearchBar = () => {
+const SearchBar = props => {
   return (
     <div className="search-bar">
         <img className="images" src={insta} alt="insta"/>
