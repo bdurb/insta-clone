@@ -7,7 +7,6 @@ import './Posts.css';
 
 class Post extends React.Component {
   constructor(props) {
-    console.log(props)
     super(props);
     this.state = {
       likes: props.post.likes
