@@ -8,7 +8,7 @@ class PostsPage extends Component {
     super();
     this.state = {
       posts: [],
-      fiilteredPosts: []
+      filteredPosts: []
     };
   }
 
